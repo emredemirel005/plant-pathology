@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 from matplotlib import pyplot as plt
-from classify_image import img_classification
+from .classify_image import img_classification
 
 
 
