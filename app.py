@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import cv2
 from PIL import Image
 from tensorflow.keras.models import load_model
 from matplotlib import pyplot as plt
@@ -26,7 +25,7 @@ if submit:
         #st.image(image_or,channels="RGB",width=256)
         
         image = np.asarray(image_or)
-        image = cv2.resize(image,(224,224))
+        image = image.resize((224,224))
         image = image/255
         image = np.expand_dims(image,0)
 
