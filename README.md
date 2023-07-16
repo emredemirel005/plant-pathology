@@ -5,3 +5,4 @@ Given a photo of an apple leaf, can you accurately assess its health? This compe
 
 <p align="center">Kaggle competition dataset</p>
 [Plant Pathology Dataset](https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7/data)
+[You can chech the streamlit app](https://plant-pathology.streamlit.app/)
