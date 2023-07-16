@@ -25,7 +25,7 @@ if submit:
         #st.image(image_or,channels="RGB",width=256)
         
         image = np.asarray(image_or)
-        image = image.resize((224,224))
+        image = image_or.resize((224,224))
         image = image/255
         image = np.expand_dims(image,0)
 
