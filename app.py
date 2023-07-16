@@ -26,7 +26,7 @@ if submit:
         
         image = np.asarray(image_or)
         image = image_or.resize((224,224))
-        image = image/255
+        #image = image/255
         image = np.expand_dims(image,0)
 
         result = model.predict(image)
