@@ -4,7 +4,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 from matplotlib import pyplot as plt
 
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 model = load_model("./best_weights.h5")
 class_names = ["healthy","multiple_diseases","rust","scab"]
